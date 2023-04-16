@@ -1,0 +1,60 @@
+<style>
+header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+img {
+    margin-right: 20px;
+}
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        /* Definir estilo para os botões */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #1C1C1C;
+            color: white;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            position: relative;
+        }
+        /* Definir estilo para os botões quando o mouse estiver sobre eles */
+        .button:hover {
+            background-color:#447953;
+        }
+        /* Definir estilo para a grade de botões */
+        .button-grid {
+            display: grid;
+            font-family: 'Roboto', sans-serif;
+            grid-template-columns: repeat(4,1fr);
+            gap: 4px;
+            margin-top: 20px;
+        }
+        /* Adicionar imagem de fundo */
+        body {
+            background-image:url('imgs/5.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        /* Definir estilo para o título */
+        h1 {
+            font-family: 'Roboto', sans-serif;
+        }
+        .button{
+            padding: 30px;
+        }
+    </style>

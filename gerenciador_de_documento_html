@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html> <h1>Gerenciador de Documentos</h1>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+        <label for="document-type">Tipo de Documento:</label>
+        <select id="document-type" name="document-type">
+            <option value="pdf">PDF</option>
+            <option value="doc">DOC</option>
+            <option value="txt">TXT</option>
+        </select>
+
+        <label for="document-file">Arquivo:</label>
+        <input type="file" id="document-file" name="document-file" accept=".pdf,.doc,.txt" required>
+
+        <div class="buttons-container">
+            <button type="submit">Salvar</button>
+            <button type="button" class="cancel-button">Cancelar</button>
+
+        </div>
+<body>
+    <div class="container">
+
+        <form>
+            <label for="nome_documento">Nome do Documento:</label>
+            <input type="text" id="nome_documento" name="nome_documento">
+            <label for="conteudo_documento">Conteúdo do Documento:</label>
+            <textarea id="conteudo_documento" name="conteudo_documento"></textarea>
+            <button type="submit" class="botao">Adicionar Documento</button>
+        </form>
+        <h2>Documentos Adicionados:</h2>
+        <ul>
+            <li>
+                <h3>Nome do Documento</h3>
+                <p>Conteúdo do Documento</p>
+                <button class="botao">Editar</button>
+                <button class="botao">Excluir</button>
+            </li>
+            <li>
+                <h3>Nome do Documento</h3>
+                <p>Conteúdo do Documento</p>
+                <button class="botao">Editar</button>
+                <button class="botao">Excluir</button>
+            </li>
+            <li>
+                <h3>Nome do Documento</h3>
+                <p>Conteúdo do Documento</p>
+                <button class="botao">Editar</button>
+                <button class="botao">Excluir</button>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+<style>
