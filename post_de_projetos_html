@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="post projetos">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>projetos </title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Projetos</h1>
+        </header>
+        <section class="container">
+            <div class="post">
+                <div class="post-header">
+                    <h2 class="post-title">Título do Projeto </h2>
+                    <p class="post-author">Por: Nome do Autor</p>
+                </div>
+                <div class="post-body">
+                    <img src="https://img.freepik.com/fotos-gratis/pessoas-trabalhando-juntas-em-um-projeto_23-2148778047.jpg?w=900&t=st=1681160173~exp=1681160773~hmac=7207ca2e0aec4fec9cfb01ed2d16d7be1086eb123d250c36c3e9b335f370e0cf" alt="Imagem do Projeto" />
+                    <p class="post-descricao">
+                       Descrição do Projeto</div>
+                      A unama projetos e uma rede social de portfólios é uma plataforma online que permite aos usuários compartilhar seus trabalhos, projetos e experiências em diferentes áreas de conhecimento, incluindo design gráfico, desenvolvimento de software, artes visuais, fotografia, música, entre outros.
+Cada usuário tem sua própria conta, onde pode criar um perfil e adicionar informações sobre sua formação, habilidades e experiências anteriores. Além disso, eles podem compartilhar imagens, vídeos e arquivos relacionados a seus projetos, bem como informações sobre as ferramentas e tecnologias que utilizaram.
+
+A plataforma também oferece uma função de busca, que permite aos usuários procurar por outros membros com base em suas áreas de interesse e habilidades. Os usuários podem comentar e interagir uns com os outros, dando feedback, sugestões e até mesmo oferecendo trabalhos e oportunidades de colaboração.
+
+Além disso, cada projeto pode ter um botão de contato, que permite aos usuários entrar em contato com a pessoa que publicou o projeto para discutir possíveis oportunidades de negócios ou trabalhos.
+
+A plataforma é uma maneira fácil e acessível para os profissionais mostrarem suas habilidades e experiências para um público mais amplo e se conectarem com outros membros da comunidade em busca de colaboração e oportunidades de trabalho.
+                    </p>
+                    <div class="post-actions">
+                        <button class="comment-button">Comentar</button>
+                        <button class="contact-button">Contato</button>
+                        <button class="comment-button">Arquivos  </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <div class="comentarios-selecao">
+    <h3>Comentários</h3>
+    <form>
+        <label for="comment">Deixe seu comentário:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <ul class="lista-comentarios">
+        <li class="comentario">
+            <h4>Nome do usuário</h4>
+            <p>Comentário sobre o projeto</p>
+        </li>
+        <li class="comentario">
+            <h4>Outro usuário</h4>
+            <p>Outro comentário</p>
+        </li>
+        <!-- mais comentários aqui -->
+    </ul>
+</div>
+
+main
+     </div class="selecao-comentarios">
+    <h3>Comentários</h3>
+    <form>
+        <label for="comentarios">Deixe seu comentário:</label>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <ul class="lista-de-comentarios ">
+        <li class="comentarios ">
+            <h4>Nome do usuário</h4>
+            <p>Comentário sobre o projeto</p>
+        </li>
+        <li class="comentarios ">
+            <h4>Outro usuário</h4>
+            <p>Outro comentário</p>
+        </li>
+        <!-- mais comentários aqui -->
+    </ul>
+</div>
+<style> 
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color:#376235 ;
+    color:#BED6BC ;
+    padding: 20px;
+}
+
+.post {
+    border: 3px solid #376235;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    background-color: #BED6BC;
+    padding: 9px;
+}
+
+.post-title {
+    margin: 0;
+    font-size: 23px;
+}
+
+.post-author {
+    margin: 0;
+    font-style:sans-serif;
+}
+
+.post-body {
+    padding: 1px;
+}
+
+.post-description {
+    margin-top: 0;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.comment-button,
+.contact-button {
+    background-color: #376235;
+    color: #BED6BC;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.comment-button:hover,
+.contact-button:hover {
+    background-color: #357FE8;
+}
+</style>
