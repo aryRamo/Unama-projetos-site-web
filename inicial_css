@@ -1,0 +1,59 @@
+main {
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/d1/37/a7/d137a7786b782df94333d7a290324f3e.png');
+    background-color: SeaGreen;
+    font-family: Verdana;
+    color: MintCream;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.inicial-container {
+    margin: 0 0 50px 0;
+    display: flex;
+    /* A CAIXA SE TORNA FLEXIVEL E FICA FÁCIL DE MANIPULAR */
+    flex-direction: row;
+    /* DEFINE O EIXO PRINCIPAL DA CAIXA, VERTICAL OU HORIZONTAL. NESSE CASO É HORIZONTAL */
+    justify-content: space-between;
+    /* PROPRIEDADE QUE MANIPULA O EIXO  PRINCIPAL*/
+    width: 100%;
+}
+
+.inicial-container-cadastre {
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+}
+
+.inicial-container-consultar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.inicial-container-consultar input{
+    background: none;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.btn-cadastre {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: Verdana;
+}
+
+.botao {
+    margin-right: 900px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 600px;
+}
